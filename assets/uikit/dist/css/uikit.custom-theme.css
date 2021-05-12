@@ -2859,7 +2859,7 @@ select.uk-form-width-xsmall {
   padding-right: 30px;
 }
 .uk-card-body .uk-nav-default .uk-nav-sub {
-  padding-left: 45px;
+  padding-left: 40px;
 }
 /* Desktop and bigger */
 @media (min-width: 1200px) {
@@ -2878,7 +2878,7 @@ select.uk-form-width-xsmall {
     padding-right: 40px;
   }
   .uk-card-body .uk-nav-default .uk-nav-sub {
-    padding-left: 55px;
+    padding-left: 50px;
   }
 }
 /*
@@ -2899,7 +2899,7 @@ select.uk-form-width-xsmall {
   padding-right: 20px;
 }
 .uk-card-small .uk-nav-default .uk-nav-sub {
-  padding-left: 35px;
+  padding-left: 30px;
 }
 /*
      * Large
@@ -2919,7 +2919,7 @@ select.uk-form-width-xsmall {
     padding-right: 0;
   }
   .uk-card-large .uk-nav-default .uk-nav-sub {
-    padding-left: 15px;
+    padding-left: 10px;
   }
 }
 /* ========================================================================
@@ -2929,14 +2929,14 @@ select.uk-form-width-xsmall {
  * Adopts `uk-icon`
  */
 .uk-close {
-  color: #323232;
+  color: #fff;
   transition: 0.1s ease-in-out;
   transition-property: color, opacity;
 }
 /* Hover + Focus */
 .uk-close:hover,
 .uk-close:focus {
-  color: #2D2D2D;
+  color: #323232;
   outline: none;
 }
 /* ========================================================================
@@ -4147,11 +4147,11 @@ select.uk-form-width-xsmall {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -270px;
+  left: -375px;
   /* 2 */
   box-sizing: border-box;
-  width: 270px;
-  padding: 20px 20px;
+  width: 375px;
+  padding: 40px 15px;
   background: #222;
   /* 3 */
   overflow-y: auto;
@@ -4162,13 +4162,13 @@ select.uk-form-width-xsmall {
   .uk-offcanvas-bar {
     left: -350px;
     width: 350px;
-    padding: 40px 40px;
+    padding: 70px 70px;
   }
 }
 /* Flip modifier */
 .uk-offcanvas-flip .uk-offcanvas-bar {
   left: auto;
-  right: -270px;
+  right: -375px;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
@@ -4224,7 +4224,7 @@ select.uk-form-width-xsmall {
   right: 0;
 }
 .uk-open > .uk-offcanvas-reveal {
-  width: 270px;
+  width: 375px;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
@@ -4248,6 +4248,10 @@ select.uk-form-width-xsmall {
   top: 20px;
   right: 20px;
   padding: 5px;
+}
+.uk-offcanvas-close svg line {
+  stroke: #FFF;
+  stroke-width: 3;
 }
 /* Overlay
  ========================================================================== */
@@ -4312,10 +4316,10 @@ select.uk-form-width-xsmall {
  * Activate slide-out animation
  */
 :not(.uk-offcanvas-flip).uk-offcanvas-container-animation {
-  left: 270px;
+  left: 375px;
 }
 .uk-offcanvas-flip.uk-offcanvas-container-animation {
-  left: -270px;
+  left: -375px;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
@@ -5021,7 +5025,7 @@ select.uk-form-width-xsmall {
  * Must target `a` elements to exclude other elements (e.g. lists)
  */
 .uk-nav > li > a {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 /* Sublists
  ========================================================================== */
@@ -5030,19 +5034,19 @@ select.uk-form-width-xsmall {
  * `ul` needed for higher specificity to override padding
  */
 ul.uk-nav-sub {
-  padding: 5px 0 5px 15px;
+  padding: 5px 0 5px 10px;
 }
 /*
  * Level 3 and deeper
  */
 .uk-nav-sub ul {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 /*
  * Items
  */
 .uk-nav-sub a {
-  padding: 2px 0;
+  padding: 5px 0;
 }
 /* Parent icon modifier
  ========================================================================== */
@@ -5051,19 +5055,19 @@ ul.uk-nav-sub {
   width: 1.5em;
   height: 1.5em;
   float: right;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%232D2D2D%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%232D2D2D%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 .uk-nav-parent-icon > .uk-parent.uk-open > a::after {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%232D2D2D%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%232D2D2D%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
 }
 /* Header
  ========================================================================== */
 .uk-nav-header {
-  padding: 5px 0;
+  padding: 10px 0;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 16px;
 }
 .uk-nav-header:not(:first-child) {
   margin-top: 20px;
@@ -5076,7 +5080,7 @@ ul.uk-nav-sub {
 /* Default modifier
  ========================================================================== */
 .uk-nav-default {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
 }
 /*
  * Items
@@ -11499,7 +11503,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-parent-icon > .uk-parent > a::after,
 .uk-overlay-primary .uk-nav-parent-icon > .uk-parent > a::after,
 .uk-offcanvas-bar .uk-nav-parent-icon > .uk-parent > a::after {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
 }
 .uk-light .uk-nav-parent-icon > .uk-parent.uk-open > a::after,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-parent-icon > .uk-parent.uk-open > a::after,
@@ -11512,7 +11516,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-parent-icon > .uk-parent.uk-open > a::after,
 .uk-overlay-primary .uk-nav-parent-icon > .uk-parent.uk-open > a::after,
 .uk-offcanvas-bar .uk-nav-parent-icon > .uk-parent.uk-open > a::after {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
 }
 .uk-light .uk-nav-default > li > a,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-default > li > a,
