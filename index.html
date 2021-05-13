@@ -27,20 +27,19 @@
     <div id="menu" uk-offcanvas="overlay:true">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
             <button class="uk-offcanvas-close uk-close-large uk-preserve" type="button" uk-close></button>
-            <ul class="uk-nav uk-nav-default uk-margin-auto-vertical uk-text-left" uk-nav>
+            <ul class="uk-nav uk-nav-default uk-nav-parent-icon uk-margin-auto-vertical uk-text-left" uk-nav>
                 <li>
-                    <a href="">Hizmetlerimiz</a>
-                <ul class="uk-nav-sub">
+                    <a href="">Hizmetlerimiz</a></li>
+
                     <li><a href="">Uluslararası Ticaret Danışmanlığı</a></li>
-                    <li><a href="">Turizm</a>
-                    <ul>
+                    <li class="uk-parent"><a href="">Turizm</a>
+                    <ul class="uk-nav-sub">
                         <li><a href="">Charter</a></li>
                         <li><a href="">Private Jet</a></li>
                         <li><a href="">Kurumsal Seyahat</a></li>
                     </ul></li>
                     <li><a href="">Medya</a></li>
                     <li><a href="">Uluslararası Temsilcilik</a></li>
-                </ul></li>
                 <li><a href="">Hakkımızda</a></li>
                 <li><a href="">İletişim</a></li>
             </ul>
@@ -64,7 +63,7 @@
                 </ul>
                 <div class="uk-position-bottom uk-position-z-index uk-light">
                     <div class="uk-margin-medium-bottom uk-flex uk-flex-center">
-                        <a href="#aboutUs" uk-icon="icon: chevron-down; ratio: 2" class="uk-icon-button" uk-scroll></a>
+                        <a href="#adwo" uk-icon="icon: chevron-down; ratio: 2" class="uk-icon-button" uk-scroll></a>
                     </div>
                 </div>
             </div>
@@ -89,13 +88,13 @@
         </div>
         </section> -->
     
-        <section class="uk-section uk-section-secondary">
+        <section class="uk-section uk-section-secondary" id="adwo">
             <div class="uk-container">
                 <div class="uk-grid-medium uk-child-width-1-2@m uk-flex-middle" uk-grid>
                     <div>
                         <div class="uk-width-4-5@m uk-text-left">
-                        <h2 class="uk-h1">Kurumsal Seyahat Danışmanlığı</h2>
-                        <p>Global pazardaki 900 ticari havayolu 110 özel jet işletmesi ve 180.000 otel ile işbirliği içinde olan Adwo IATAN USA üyesi olarak hem kurumsal hem de bireysel seyahat tecrübelerine yeni bir bakış açısı getiriyor.</p>
+                        <h2 class="uk-h1">Neden Adwo ?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat esse rerum architecto!</p>
                         <a href="" class="uk-button uk-button-primary">keşfet</a>    
                     </div>
                     </div>
@@ -124,21 +123,22 @@
         <section class="uk-section uk-section-secondary uk-preserve-color">
             <div class="uk-container">
                 <div class="uk-text-center uk-margin-medium-bottom">
-                    <h2 class="uk-h1 uk-light">TEMSİLCİLİKLER VE SATIŞ YETKİLİLERİ</h2>
+                    <h2 class="uk-h1 uk-light">NELER YAPIYORUZ</h2>
                 </div>
-                <div class="uk-grid-medium uk-grid-match uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
+                <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid uk-height-match="target: .uk-card-body">
                     <div>
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-media-top">
                                 <img src="https://dummyimage.com/640x360/aaa/fff" alt="">
                             </div>
-                            <div class="uk-card-body">
-                                <div class="uk-card-title">Lorem, ipsum.</div>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="uk-card-body uk-flex uk-flex-column uk-flex-between uk-text-center">
+                                    <div>
+                                        <div class="uk-card-title">Uluslararası Ticaret Danışmanlığı</div>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
                                 <div class="uk-flex uk-flex-center">
                                     <a href="" class="uk-button uk-button-primary uk-width-1-1 uk-width-auto@m">KEŞFET</a>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -147,13 +147,14 @@
                             <div class="uk-card-media-top">
                                 <img src="https://dummyimage.com/640x360/aaa/fff" alt="">
                             </div>
-                            <div class="uk-card-body">
-                                <div class="uk-card-title">Lorem, ipsum.</div>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="uk-card-body uk-flex uk-flex-column uk-flex-between uk-text-center">
+                                    <div>
+                                        <div class="uk-card-title">Turizm</div>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
                                 <div class="uk-flex uk-flex-center">
                                     <a href="" class="uk-button uk-button-primary uk-width-1-1 uk-width-auto@m">KEŞFET</a>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -162,16 +163,84 @@
                             <div class="uk-card-media-top">
                                 <img src="https://dummyimage.com/640x360/aaa/fff" alt="">
                             </div>
-                            <div class="uk-card-body">
-                                <div class="uk-card-title">Lorem, ipsum.</div>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="uk-card-body uk-flex uk-flex-column uk-flex-between uk-text-center">
+                                    <div>
+                                        <div class="uk-card-title">Medya</div>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
                                 <div class="uk-flex uk-flex-center">
                                     <a href="" class="uk-button uk-button-primary uk-width-1-1 uk-width-auto@m">KEŞFET</a>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="uk-margin-medium-top uk-flex uk-flex-center">
+                    <a href="" class="uk-button uk-button-default">TÜM HİZMETLER</a>
+                </div>
+            </div>
+        </section>
+        <section class="uk-section uk-section-primary">
+            <div class="uk-container">
+                <div class="uk-text-center uk-margin-medium-bottom">
+                <h2>REFERANSLARIMIZ</h2>
+            </div>
+                <div uk-slider="autoplay: true; autoplay-interval: 3000">
+            <div class="uk-position-relative">
+                    <div class="uk-slider-container">
+                        <ul class="uk-slider-items uk-grid uk-grid-small uk-grid-match">
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/fabian.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/rally.png" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/roboair.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/fabian.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/rally.png" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/roboair.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/fabian.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/rally.png" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                            <li class="uk-width-4-5 uk-width-1-2@s uk-width-1-4@m">
+                                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-card-body">
+                                        <img data-src="assets/images/references/roboair.jpg" alt="" class="uk-width-1-1" uk-img>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
