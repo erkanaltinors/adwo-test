@@ -3578,6 +3578,9 @@ select.uk-form-width-xsmall {
   line-height: 1.4;
   color: #141414;
   overflow: hidden;
+  background-color: #222;
+  padding: 15px 0 15px 10px;
+  transition: .3s;
 }
 .uk-accordion-title::before {
   content: "";
@@ -3598,12 +3601,18 @@ select.uk-form-width-xsmall {
   color: #2D2D2D;
   text-decoration: none;
   outline: none;
+  background-color: #151515;
+  transition: .3s;
 }
 /* Content
  ========================================================================== */
 .uk-accordion-content {
   display: flow-root;
   margin-top: 20px;
+  margin-top: 0;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  color: #222;
 }
 /*
  * Remove margin from the last-child
