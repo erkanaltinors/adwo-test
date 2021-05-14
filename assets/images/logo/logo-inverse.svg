@@ -1,8 +1,15 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1844.05pt" height="1272pt" viewBox="0 0 1844.05 1272">
-<g enable-background="new">
-<text fill="#ffffff" xml:space="preserve" transform="matrix(.9999951 0 -0 1.000005 0 1272)" font-size="263.1049" font-family="HelveticaNeue"><tspan y="-504.66249" x="564.9509 735.44296 920.6688 1164.304">ADWO</tspan></text>
-<path transform="matrix(1,0,0,-1,1042.9575,559.0464)" stroke-width="9.497" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ffffff" d="M 0 0 L 0 -3.62 "/>
-<path transform="matrix(1,0,0,-1,1042.9575,767.334)" stroke-width="9.497" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#ffffff" d="M 0 0 L 0 -141.38 L -558.415 -141.38 L -558.415 404.048 L 0 404.048 L 0 208.288 "/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="62" viewBox="0 0 101 62">
+  <defs>
+    <filter id="adwo-logo-beyaz-a" color-interpolation-filters="auto">
+      <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#adwo-logo-beyaz-a)">
+    <g transform="translate(1 1)">
+      <text fill="#000" fill-rule="nonzero" font-family="Helvetica" font-size="28.943" transform="translate(8.859 16.286)">
+        <tspan x="0" y="28">ADWO</tspan>
+      </text>
+      <polyline stroke="#050505" stroke-width="1.045" points="61.524 15.553 61.524 0 0 0 0 60 61.524 60 61.524 38.465" transform="matrix(1 0 0 -1 0 60)"/>
+    </g>
+  </g>
 </svg>
