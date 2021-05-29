@@ -10,7 +10,7 @@
  */
 html {
   /* 1 */
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -244,7 +244,7 @@ h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: normal;
   color: #141414;
   text-transform: none;
@@ -5319,7 +5319,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 16px;
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Zilla Slab', serif;
   /* 4 */
   text-decoration: none;
 }
@@ -8248,7 +8248,7 @@ iframe.uk-cover {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Zilla Slab', serif;
   color: #2D2D2D;
   /* 1 */
   text-decoration: none;
