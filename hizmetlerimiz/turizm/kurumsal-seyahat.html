@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="../../assets/uikit/dist/css/uikit.custom-theme.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
     <title>The Adwo | Kurumsal Seyahat</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-773B8EC20W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-773B8EC20W');
+</script>
 </head>
 <body>
     <header uk-sticky="animation: uk-animation-slide-top; top: 100vh; sel-target: .target; cls-active: uk-background-muted; cls-inactive: uk-light">
@@ -18,7 +31,10 @@
                 <a href="#menu" class="uk-navbar-item uk-link-reset uk-padding-remove-horizontal" uk-icon="icon: menu; ratio: 2" uk-toggle></a>
             </div>
             <div class="uk-navbar-center">
-                <a class="uk-navbar-item uk-logo" href="../../index.html">Adwo</a>
+                <a class="uk-navbar-item uk-logo" href="../../index.html">
+                    <img src="../../assets/images/logo/logo-inverse.svg" class="uk-logo-inverse" width="101" height="62" alt="logo white">
+                    <img src="../../assets/images/logo/logo.svg" alt="logo black" width="101" height="62">
+                </a>
             </div>
         </nav>
     </div>
@@ -28,17 +44,21 @@
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
             <button class="uk-offcanvas-close uk-close-large uk-preserve" type="button" uk-close></button>
             <ul class="uk-nav uk-nav-default uk-nav-parent-icon uk-margin-auto-vertical uk-text-left" uk-nav>
-                <li>
-                    <a href="../../hizmetlerimiz.html">Hizmetlerimiz</a></li>
-
-                    <li><a href="../../hizmetlerimiz/uluslararasi-ticaret-danismanligi.html">Uluslararası Ticaret Danışmanlığı</a></li>
-                    <li class="uk-parent uk-active"><a href="../turizm.html">Turizm</a>
+                <li class="uk-parent"><a>Hizmetlerimiz</a>
                     <ul class="uk-nav-sub">
-                        <li><a href="charter.html">Charter</a></li>
-                        <li><a href="private-jet.html">Private Jet</a></li>
-                        <li class="uk-active"><a href="kurumsal-seyahat.html">Kurumsal Seyahat</a></li>
-                    </ul></li>
-                    <li><a href="../../hizmetlerimiz/uluslararasi-temsilcilik.html">Uluslararası Temsilcilik</a></li>
+                        <li><a href="../uluslararasi-ticaret-danismanligi.html">Uluslararası Ticaret Danışmanlığı</a></li>
+                        <li><a href="../uluslararasi-temsilcilik.html">Uluslararası Temsilcilik</a></li>
+                        <li class="uk-parent"><a href="../turizm.html">Turizm</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="charter.html">Charter</a></li>
+                                <li><a href="private-jet.html">Private Jet</a></li>
+                                <li><a href="kurumsal-seyahat.html">Kurumsal Seyahat</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../../hizmetlerimiz.html">Tüm Hizmetlerimiz</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../is-ortaklarimiz.html">İş Ortaklarımız</a></li>
                 <li><a href="../../hakkimizda.html">Hakkımızda</a></li>
                 <li><a href="../../iletisim.html">İletişim</a></li>
             </ul>

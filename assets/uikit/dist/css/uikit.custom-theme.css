@@ -2716,6 +2716,7 @@ select.uk-form-width-xsmall {
 .uk-card-title {
   font-size: 1.5rem;
   line-height: 1.4;
+  margin-bottom: 20px;
 }
 /* Badge
  ========================================================================== */
