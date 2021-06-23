@@ -4599,37 +4599,37 @@ select.uk-form-width-xsmall {
   /* 1 */
   font-variant-numeric: tabular-nums;
   /* 2 */
-  font-size: 2rem;
+  font-size: 0.5rem;
   line-height: 0.8;
 }
 /* Phone landscape and bigger */
 @media (min-width: 640px) {
   .uk-countdown-number {
-    font-size: 4rem;
+    font-size: 1rem;
   }
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-countdown-number {
-    font-size: 6rem;
+    font-size: 1.5rem;
   }
 }
 /* Separator
  ========================================================================== */
 .uk-countdown-separator {
-  font-size: 1rem;
+  font-size: 0.25rem;
   line-height: 1.6;
 }
 /* Phone landscape and bigger */
 @media (min-width: 640px) {
   .uk-countdown-separator {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-countdown-separator {
-    font-size: 3rem;
+    font-size: 0.75rem;
   }
 }
 /* Label

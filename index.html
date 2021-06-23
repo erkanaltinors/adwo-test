@@ -65,6 +65,14 @@
         </div>
     </div>
     <main>
+        <div id="modal-center" class="uk-flex-top" uk-modal>
+            <div class="uk-modal-dialog uk-margin-auto-vertical uk-width-large">    
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <div class="uk-position-relative">
+                    <img data-src="assets/images/util/one-life-modal.jpeg" alt="" uk-img>
+                </div>
+            </div>
+        </div>
         <section>
             <div class="uk-position-relative uk-slideshow" tabindex="-1" uk-slideshow="animation: scale; autoplay: true; autoplay-interval: 3000">
     
@@ -291,6 +299,8 @@
             </div>
         </div>
     </footer>
+    <script src="assets/uikit/dist/js/uikit.min.js"></script>
+    <script src="assets/uikit/dist/js/uikit-icons.min.js"></script>
     <script>
         function thisYear() {
           var d = new Date();
@@ -298,8 +308,20 @@
           document.getElementById("year").innerHTML = n;
         }
         thisYear();
+
+     function modalHandler(){
+         const modalElm = document.getElementById('modal-center');
+         const today = new Date();
+         const todayParsed = Date.parse(today);
+         const finishDate = 1624694400000;
+         console.log(todayParsed);
+         window.addEventListener("load", (event) => {
+             if(todayParsed <= finishDate){
+                UIkit.modal(modalElm).show();
+             }
+         });
+     }
+     modalHandler();
         </script>
-    <script src="assets/uikit/dist/js/uikit.min.js"></script>
-    <script src="assets/uikit/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
